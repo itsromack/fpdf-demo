@@ -1,6 +1,5 @@
 <?php
 include "vendor/autoload.php";
-require "ringbearer.php";
 
 use Fpdf\Fpdf;
 
@@ -12,4 +11,4 @@ $pdf->Write(10,'The Lord Of The Rings');
 $pdf->Output();
 
 // Run php vendor/fpdf/fpdf/src/Fpdf/makefont/makefont.php fonts/ringbearer.ttf
-// Copy the generated files to the font folder
+// Move the generated files to the font folder (vendor/fpdf/fpdf/src/Fpdf/font/)

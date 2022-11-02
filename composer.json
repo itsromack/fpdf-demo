@@ -1,0 +1,17 @@
+{
+    "name": "itsromack/pdf-demo",
+    "require": {
+        "fpdf/fpdf": "^1.84"
+    },
+    "autoload": {
+        "psr-4": {
+            "Itsromack\\PdfDemo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Romack Natividad",
+            "email": "natividad.romack@auf.edu.ph"
+        }
+    ]
+}

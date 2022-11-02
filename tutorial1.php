@@ -2,7 +2,6 @@
 
 include "vendor/autoload.php";
 
-
 use Fpdf\Fpdf;
 
 $pdf = new Fpdf('L', 'mm', 'A5');
